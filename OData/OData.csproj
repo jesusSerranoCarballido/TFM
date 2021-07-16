@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Connected Services\OData Northwind\OData NorthwindCsdl.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Connected Services\OData Northwind\OData NorthwindCsdl.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.OData.Client" Version="7.8.3" />
+    <PackageReference Include="Microsoft.OData.Core" Version="7.8.3" />
+    <PackageReference Include="Microsoft.OData.Edm" Version="7.8.3" />
+    <PackageReference Include="Microsoft.Spatial" Version="7.8.3" />
+    <PackageReference Include="System.Text.Json" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,48 @@
+﻿{
+  "ProviderId": "Microsoft.OData.ConnectedService",
+  "Version": "0.12.1.0",
+  "GettingStartedDocument": {
+    "Uri": "http://odata.github.io/odata.net/"
+  },
+  "ExtendedData": {
+    "EnableNamingAlias": true,
+    "IgnoreUnexpectedElementsAndAttributes": true,
+    "IncludeT4File": false,
+    "ExcludedOperationImports": [],
+    "ExcludedBoundOperations": [],
+    "ServiceName": "OData Northwind",
+    "Endpoint": "https://services.odata.org/V4/Northwind/Northwind.svc/$metadata",
+    "EdmxVersion": {
+      "Major": 4,
+      "Minor": 0,
+      "Build": 0,
+      "Revision": 0,
+      "MajorRevision": 0,
+      "MinorRevision": 0
+    },
+    "GeneratedFileNamePrefix": "Reference",
+    "UseNamespacePrefix": false,
+    "NamespacePrefix": null,
+    "UseDataServiceCollection": true,
+    "MakeTypesInternal": false,
+    "OpenGeneratedFilesInIDE": false,
+    "GenerateMultipleFiles": false,
+    "CustomHttpHeaders": null,
+    "IncludeWebProxy": false,
+    "WebProxyHost": null,
+    "IncludeWebProxyNetworkCredentials": false,
+    "WebProxyNetworkCredentialsUsername": null,
+    "WebProxyNetworkCredentialsPassword": null,
+    "WebProxyNetworkCredentialsDomain": null,
+    "IncludeCustomHeaders": false,
+    "ExcludedSchemaTypes": [
+      "NorthwindModel.Alphabetical_list_of_product",
+      "NorthwindModel.Customer_and_Suppliers_by_City",
+      "NorthwindModel.Product_Sales_for_1997",
+      "NorthwindModel.Products_Above_Average_Price",
+      "NorthwindModel.Sales_Totals_by_Amount",
+      "NorthwindModel.Summary_of_Sales_by_Quarter",
+      "NorthwindModel.Summary_of_Sales_by_Year"
+    ]
+  }
+}

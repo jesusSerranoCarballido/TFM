@@ -1,0 +1,200 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Jesus\\Nube\\OneDrive\\UNIR\\TFM\\Code\\NlpDT\\ClassificationTree\\ClassificationTree.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Jesus\\Nube\\OneDrive\\UNIR\\TFM\\Code\\NlpDT\\ClassificationTree.Infraestructure\\ClassificationTree.Infraestructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jesus\\Nube\\OneDrive\\UNIR\\TFM\\Code\\NlpDT\\ClassificationTree.Infraestructure\\ClassificationTree.Infraestructure.csproj",
+        "projectName": "ClassificationTree.Infraestructure",
+        "projectPath": "C:\\Users\\Jesus\\Nube\\OneDrive\\UNIR\\TFM\\Code\\NlpDT\\ClassificationTree.Infraestructure\\ClassificationTree.Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\Jesus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jesus\\Nube\\OneDrive\\UNIR\\TFM\\Code\\NlpDT\\ClassificationTree.Infraestructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Jesus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Jesus\\Nube\\OneDrive\\UNIR\\TFM\\Code\\NlpDT\\Wrapper.Spacy\\Wrapper.Spacy.csproj": {
+                "projectPath": "C:\\Users\\Jesus\\Nube\\OneDrive\\UNIR\\TFM\\Code\\NlpDT\\Wrapper.Spacy\\Wrapper.Spacy.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.205\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jesus\\Nube\\OneDrive\\UNIR\\TFM\\Code\\NlpDT\\ClassificationTree\\ClassificationTree.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jesus\\Nube\\OneDrive\\UNIR\\TFM\\Code\\NlpDT\\ClassificationTree\\ClassificationTree.csproj",
+        "projectName": "ClassificationTree",
+        "projectPath": "C:\\Users\\Jesus\\Nube\\OneDrive\\UNIR\\TFM\\Code\\NlpDT\\ClassificationTree\\ClassificationTree.csproj",
+        "packagesPath": "C:\\Users\\Jesus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jesus\\Nube\\OneDrive\\UNIR\\TFM\\Code\\NlpDT\\ClassificationTree\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Jesus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Jesus\\Nube\\OneDrive\\UNIR\\TFM\\Code\\NlpDT\\ClassificationTree.Infraestructure\\ClassificationTree.Infraestructure.csproj": {
+                "projectPath": "C:\\Users\\Jesus\\Nube\\OneDrive\\UNIR\\TFM\\Code\\NlpDT\\ClassificationTree.Infraestructure\\ClassificationTree.Infraestructure.csproj"
+              },
+              "C:\\Users\\Jesus\\Nube\\OneDrive\\UNIR\\TFM\\Code\\NlpDT\\Wrapper.Spacy\\Wrapper.Spacy.csproj": {
+                "projectPath": "C:\\Users\\Jesus\\Nube\\OneDrive\\UNIR\\TFM\\Code\\NlpDT\\Wrapper.Spacy\\Wrapper.Spacy.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.205\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jesus\\Nube\\OneDrive\\UNIR\\TFM\\Code\\NlpDT\\Wrapper.Spacy\\Wrapper.Spacy.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jesus\\Nube\\OneDrive\\UNIR\\TFM\\Code\\NlpDT\\Wrapper.Spacy\\Wrapper.Spacy.csproj",
+        "projectName": "Wrapper.Spacy",
+        "projectPath": "C:\\Users\\Jesus\\Nube\\OneDrive\\UNIR\\TFM\\Code\\NlpDT\\Wrapper.Spacy\\Wrapper.Spacy.csproj",
+        "packagesPath": "C:\\Users\\Jesus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jesus\\Nube\\OneDrive\\UNIR\\TFM\\Code\\NlpDT\\Wrapper.Spacy\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Jesus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "pythonnet": {
+              "target": "Package",
+              "version": "[3.0.0-preview2021-04-03, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.205\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
